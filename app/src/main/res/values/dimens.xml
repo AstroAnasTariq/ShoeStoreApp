@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="full_margin">16dp</dimen>
+    <dimen name="half_margin">8dp</dimen>
+    <dimen name="small_margin">2dp</dimen>
+    <dimen name="rounded_button">15dp</dimen>
+</resources>

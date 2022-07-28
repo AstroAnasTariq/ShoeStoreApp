@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Shoe Store</string>
+
+    <string name="welcome">Welcome!</string>
+    <string name="welcome2">To your shoes store app</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Sign in</string>
+    <string name="createNewAccount">Create new Account?</string>
+    <string name="register">Sign Up</string>
+    <string name="next">Next</string>
+    <string name="chooseyourfav">Choose your favourite</string>
+    <string name="pairofshoes">Pair of shoes</string>
+    <string name="howtouse">How to use the App?</string>
+    <string name="get_started">Get Started</string>
+    <string name="instruction1">The contents of your shoe store are displayed on the next screen, where you can check the list of shoes, add new shoe or edit an existing shoe.</string>
+    <string name="instruction2">You can see a detailed overview of a selected shoe including the shoe name, company name, size and description.</string>
+    <string name="instruction3">To add a new shoe click the add button in the bottom right corner on the shoe list screen, then enter the informations of the new shoe and click save button.</string>
+    <string name="add_a_shoe">Add a shoes</string>
+    <string name="login_fragment_label">Login</string>
+
+    <string name="add_shoe">Add Shoe</string>
+    <string name="shoe_name">Shoe Name</string>
+    <string name="company">Company</string>
+    <string name="shoe_size">Shoe size</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="action_logout">Log Out</string>
+    <string name="welcome_fragment_label">Welcome</string>
+    <string name="instructions_fragment_label">Instructions</string>
+    <string name="shoes_list_fragment_label">Shoes List</string>
+    <string name="show_details_fragment_label">Shoe Details</string>
+    <string name="size">Size</string>
+</resources>

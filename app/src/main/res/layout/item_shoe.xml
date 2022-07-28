@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- I'm using linear layout because all elements are aligned in same direction 'vertical' -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/half_margin">
+
+        <TextView
+            android:id="@+id/itemShoeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            tools:text="@string/shoe_name" />
+
+        <TextView
+            android:id="@+id/itemCompany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:padding="@dimen/small_margin"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:text="@string/company" />
+
+        <TextView
+            android:id="@+id/itemSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:padding="@dimen/small_margin"
+            android:textColor="@color/black"
+            tools:text="@string/size" />
+
+        <TextView
+            android:id="@+id/itemDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:padding="@dimen/small_margin"
+            android:textColor="@color/black"
+            tools:text="@string/description" />
+
+        <View
+            android:id="@+id/view_shoe_item"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/half_margin"
+            android:background="@color/primaryColor" />
+
+    </LinearLayout>
+</layout>
