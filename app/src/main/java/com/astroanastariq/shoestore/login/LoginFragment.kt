@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.findNavController
 import com.astroanastariq.shoestore.R
+import com.astroanastariq.shoestore.databinding.FragmentDetailsBinding
 import com.astroanastariq.shoestore.databinding.FragmentLoginBinding
 
 
@@ -20,9 +21,8 @@ class LoginFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         // Inflate the layout for this fragment
-        binding = DataBindingUtil.inflate(
-            inflater, R.layout.fragment_login, container, false
-        )
+        binding = FragmentLoginBinding.inflate(inflater, container, false)
+
         return binding.root
     }
 

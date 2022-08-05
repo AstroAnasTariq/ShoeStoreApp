@@ -11,6 +11,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.navigation.fragment.findNavController
 import com.astroanastariq.shoestore.R
 import com.astroanastariq.shoestore.ShoesViewModel
+import com.astroanastariq.shoestore.databinding.FragmentDetailsBinding
 import com.astroanastariq.shoestore.databinding.FragmentListingBinding
 import com.astroanastariq.shoestore.models.Shoe
 
@@ -24,9 +25,7 @@ class ListingFragment : Fragment(), View.OnClickListener, MenuProvider {
         savedInstanceState: Bundle?
     ): View {
         // Inflate the layout for this fragment
-        binding = DataBindingUtil.inflate(
-            inflater, R.layout.fragment_listing, container, false
-        )
+        binding = FragmentListingBinding.inflate(inflater, container, false)
         return binding.root
     }
 

@@ -3,4 +3,26 @@
     <dimen name="half_margin">8dp</dimen>
     <dimen name="small_margin">2dp</dimen>
     <dimen name="rounded_button">15dp</dimen>
+
+    <style name="text_item" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="maxLines">1</item>
+    </style>
+
+    <style name="text_item_title" parent="text_item">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="text_item_sub" parent="text_item">
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <style name="text_item_sub_des" parent="text_item">
+        <item name="android:padding">2dp</item>
+        <item name="maxLines">3</item>
+    </style>
+
 </resources>

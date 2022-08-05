@@ -8,13 +8,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
 import android.widget.TextView
-import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.navigation.fragment.findNavController
-import com.astroanastariq.shoestore.R
 import com.astroanastariq.shoestore.ShoesViewModel
 import com.astroanastariq.shoestore.databinding.FragmentDetailsBinding
 import kotlinx.coroutines.launch
@@ -30,8 +28,8 @@ class DetailsFragment : Fragment(), TextView.OnEditorActionListener {
         savedInstanceState: Bundle?
     ): View {
         // Inflate the layout for this fragment
-        binding =
-            DataBindingUtil.inflate(layoutInflater, R.layout.fragment_details, container, false)
+        binding = FragmentDetailsBinding.inflate(inflater, container, false)
+
         binding.viewModel = viewModel
         binding.shoe = viewModel.currentShoe
         return binding.root
