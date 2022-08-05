@@ -40,7 +40,7 @@ class DetailsFragment : Fragment(), TextView.OnEditorActionListener {
 
         binding.tilDescription.editText?.setOnEditorActionListener(this)
 
-        lifecycleScope.launch {
+        viewLifecycleOwner.lifecycleScope.launch {
             repeatOnLifecycle(Lifecycle.State.STARTED) {
                 viewModel.navigateUp.collect { findNavController().navigateUp() }
             }
